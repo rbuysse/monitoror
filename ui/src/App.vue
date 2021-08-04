@@ -269,7 +269,7 @@ export default defineComponent({
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
     grid-gap: var(--tiles-gap);
-    grid-auto-rows: calc((100vh - var(--tiles-gap)) / var(--rows) - var(--tiles-gap));
+    grid-auto-rows: 200px;
     padding: var(--tiles-gap);
   }
 
